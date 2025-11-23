@@ -1,45 +1,309 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="index.css">
-<title>My Portfolio</title>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinu Variyatil - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="banner">
-<h1 class="heading">Hello Welcome to my page</h1>
-</div>
-<div class ="container">
-<div class ="image"><img src="VinuVinayan.jpg" alt="Vinu"></div>
-<div class ="paragraph"><p><b>Name</b> : Vinu Vinayan <br><br>Graduated from Mumbai university with bachelors degree in Electronics engineering.Lives in Mumbai. Aim is to stay updated with all new technology and make a career as data scientist and also to become a magician.<br><br>You can also visit my linkedin profile <br>
-<a href="https://www.linkedin.com/in/vinu-vinayan-325895a1">
-  <img class="image-icon-linkden" src="linkden.png" alt="Linkden"/>
-</a></p>
-</div>
-</div>
-<div class ="container">
-<div class ="hobbies">
-<div class ="paragraph"><p><b>Hobby</b> :Drawing </p></div>
-<marquee scrollamount="15">
-<div class ="image"><img  src="Lion.jpg" alt="Drawing Image">
-<img src="Oswald.jpg" alt="Drawing Image">
-<img src="Tom&Jerry.jpg" alt="Drawing Image">
-<img src="Vijay.jpg" alt="Drawing Image">
-<img src="BobTheBuilder.jpg" alt="Drawing Image"></div>
-</marquee>
-</div>
-</div>
-<div class ="container">
-<div class ="paragraph">
-<p><b>Intrested Technology</b><br></p>
-<div class="image"><img class="image-icon" src="R.jpg" alt="R"></div><div><p> Intereset in machine learning and data analytics using R</p></div>
-<div class="image"><img class="image-icon" src="C.jpg" alt="C#"></div><div><p> Intereset in solving algorithms using C#</p></div></div> 
-<div class ="paragraph"><p><b>Work Experience</b><br><br>2 Years of work experience in plsql.</p></div>
-<div class ="paragraph"><p><b>Projects</b><br><br>This website is my first project related to front end development</p></div>
-</div>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1><span>Vinu Variyatil</span></h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span>Vinu Variyatil</span></h1>
+                    <h2>Full Stack Developer</h2>
+                    <p>Specializing in creating efficient, user-centered web applications with over 9 years of experience.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary-btn">Contact Me</a>
+                        <a href="#projects" class="btn secondary-btn">View Projects</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/Vinu_profile.jpeg" alt="Vinu Variyatil" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Dynamic Senior Developer with over 9 years of experience, specializing in full-stack and front-end development. Dedicated to creating efficient, user-centered web applications. Seeking to leverage my skills in a challenging role to drive innovative solutions and enhance user experiences.</p>
+                    <p>Currently based in Dubai, UAE, I am passionate about building robust web applications and exploring new technologies in AI and machine learning.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>vvinayan538@gmail.com</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-phone"></i>
+                            <span>+971569139767</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Dubai, UAE</span>
+                        </div>
+                        <div class="detail">
+                            <a href="https://www.linkedin.com/in/vinu-variyatil-325895a1/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Front-end</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">React.js</div>
+                        <div class="skill-item">Angular</div>
+                        <div class="skill-item">Polymer.js</div>
+                        <div class="skill-item">TypeScript</div>
+                        <div class="skill-item">Next.js</div>
+                        <div class="skill-item">SolidJs</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Nest.js</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">C#</div>
+                        <div class="skill-item">.Net Core</div>
+                        <div class="skill-item">Websockets</div>
+                        <div class="skill-item">Restful APIs</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Messaging & Communications</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Pulsar</div>
+                        <div class="skill-item">gRPC</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>CICD and Monitoring</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">GitHub</div>
+                        <div class="skill-item">Vercel</div>
+                        <div class="skill-item">CircleCI</div>
+                        <div class="skill-item">Datadog</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">PL/SQL</div>
+                        <div class="skill-item">PostgreSQL</div>
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">Firebase</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Langchain</div>
+                        <div class="skill-item">Langgraph</div>
+                        <div class="skill-item">ML</div>
+                        <div class="skill-item">Deep Learning</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Deployment</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Docker</div>
+                        <div class="skill-item">AWS (Container services, S3, Lambda)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">February 2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Web Developer</h3>
+                        <h4>Deriv, Dubai</h4>
+                        <ul>
+                            <li>Developed and integrated new features for a trading platform using React and Solid.js, significantly enhancing user engagement and overall functionality.</li>
+                            <li>Built MCP servers to help the AI team to get data of the front-end projects.</li>
+                            <li>Enhanced AI-based development initiatives by implementing innovative solutions that increased application responsiveness and user satisfaction.</li>
+                            <li>Optimized the existing codebase through systematic profiling and refactoring, leading to reduced load times and improved application performance.</li>
+                            <li>Guided junior developers through intricate technical tasks, promoting a collaborative learning environment and fostering knowledge sharing across the team.</li>
+                            <li>Architected and deployed new features and updates via automated CI/CD pipelines, Docker ensuring seamless integration and minimal disruption to existing systems.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">January 2020 - December 2021</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>Larsen & Toubro Infotech, Mumbai</h4>
+                        <ul>
+                            <li>Developed Business Continuity plan application for client using PEAN (PostgreSQL, Express, Angular, Node.js) stack.</li>
+                            <li>Communicated technical development stages and provided design support to businesses and other stakeholders encouraging participation for on-time execution.</li>
+                            <li>Developed workflows to deploy applications into AWS and Azure cloud services.</li>
+                            <li>Developed ETL to feed in data for the BE using MongoDB, snowflake and postgresql.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">August 2015 - January 2020</div>
+                    <div class="timeline-content">
+                        <h3>System Engineer</h3>
+                        <h4>Tata Consultancy Service, Mumbai</h4>
+                        <ul>
+                            <li>Developed software solutions for projects focused on anti-money laundering, fraud risk management, trend analysis, and asset liability management.</li>
+                            <li>Optimized database queries and application performance, resulting in enhanced system efficiency and user satisfaction.</li>
+                            <li>Reengineered existing software components to address performance issues, significantly reducing processing times and resource consumption.</li>
+                            <li>Troubleshoot complex technical issues, delivering effective resolutions that minimized downtime and maintained operational continuity.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project cards will be populated via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>B.Eng in Electronics</h3>
+                    <h4>University of Mumbai</h4>
+                    <p class="education-date">July 2011 - June 2015</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content-centered">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>vvinayan538@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+971569139767</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Dubai, UAE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2023 Vinu Variyatil. All Rights Reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/vinu-variyatil-325895a1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/vinu3838" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
-
-
-
-
-
